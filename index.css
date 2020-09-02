@@ -55,7 +55,6 @@ table {
     padding:0;
     margin:0;
     max-width: 100%;
-    border:2px solid black;
 }
 
 html {
@@ -100,14 +99,15 @@ nav {
 /* Header Start */
 .head {
     display: inline-block;
+    width:25%;
 }
 .head img {
-    width:20%;
     border-radius:50%;
 }
-
 .head.title {
+    width: 40%;
     margin:5%;
+    text-align: center;
     margin-left: 10%;
 }
 
@@ -128,6 +128,9 @@ h1 {
     padding: 5px;
     margin-bottom:5%;
 }
+#content p {
+    margin:2%;
+}
 /* Content End */
 /* Mid Start */
 .mid {
@@ -143,6 +146,9 @@ h1 {
 .mid p {
     margin:0 35%;
     margin-bottom: 5%;
+}
+.mid p b {
+    font-weight:900;
 }
 /* Mid End */
 /* Footer Start */
