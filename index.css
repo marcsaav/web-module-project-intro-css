@@ -82,6 +82,7 @@ nav {
     border-radius:10px;
     padding:5px;
     margin:5%;
+    transition: 150ms;
 }
 
 .buttons.visit {
@@ -94,6 +95,10 @@ nav {
 
 .buttons.involve {
     background-color:#FFCD69;
+}
+
+.buttons:hover {
+     border:5px solid black;
 }
 /* Nav End */
 /* Header Start */
@@ -109,12 +114,13 @@ nav {
     margin:5%;
     text-align: center;
     margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 h1 {
     font-size:5rem;
     font-family: 'Chelsea Market', cursive;
-    margin:0 0 5%;
+    margin:0 0 25%;
 }
 .head p {
     margin:5% 0;
