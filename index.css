@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width: 100%;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-size:1.6rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main-content {
+    margin:0 5%;
+}
+/* Nav Start */
+nav {
+    text-align: center;
+}
+
+.buttons {
+    display:inline-block;
+    width:10%;
+    text-align:center;
+    color:white;
+    border-radius:10px;
+    padding:5px;
+    margin:5%;
+    transition: 150ms;
+}
+
+.buttons.visit {
+    background-color:#FF764E;
+}
+
+.buttons.about {
+    background-color:#5ED3EB;
+}
+
+.buttons.involve {
+    background-color:#FFCD69;
+}
+
+.buttons:hover {
+     border:5px solid black;
+}
+/* Nav End */
+/* Header Start */
+.head {
+    display: inline-block;
+    width:25%;
+}
+.head img {
+    border-radius:50%;
+}
+.head.title {
+    width: 40%;
+    margin:5%;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    font-size:5rem;
+    font-family: 'Chelsea Market', cursive;
+    margin:0 0 25%;
+}
+.head p {
+    margin:5% 0;
+}
+/* Header End */
+/* Content Start */
+#content {
+    background-color:#DDB9A3;
+    color:white;
+    text-align:center;
+    padding: 5px;
+    margin-bottom:5%;
+}
+#content p {
+    margin:2%;
+}
+/* Content End */
+/* Mid Start */
+.mid {
+    text-align:center;
+    margin:0 auto;
+    font-size:1rem;
+}
+
+.mid img {
+    width:20%;
+}
+
+.mid p {
+    margin:0 35%;
+    margin-bottom: 5%;
+}
+.mid p b {
+    font-weight:900;
+}
+/* Mid End */
+/* Footer Start */
+footer {
+    background-color: #F9E7DC;
+}
+footer img {
+    height: 50vh;
+    width:100%;
+}
+/* Footer End */
